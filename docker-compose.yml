@@ -1,0 +1,11 @@
+version: '3'
+services:
+  nukkit:
+    image: reejp/nukkit:0.1
+    container_name: reef
+    ports:
+      - "19132:19132/udp"
+    volumes:
+      - ./nukkit:/data
+    stdin_open: true
+    tty: true
