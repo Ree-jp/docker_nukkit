@@ -1,7 +1,7 @@
 # docker_nukkit
  dockerfile for nukkit
  
-# How to use
+# how to use
 ```
 git clone -c nukkit https://github.com/Ree-jp/docker_nukkit.git
 
@@ -11,3 +11,6 @@ wget -o server.jar https://ci.nukkitx.com/job/NukkitX/job/Nukkit/job/master/last
 
 docker-compose up -d
 ```
+
+# dockerHub
+https://hub.docker.com/r/reejp/nukkit
