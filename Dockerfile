@@ -18,5 +18,8 @@ USER minecraft:minecraft
 VOLUME /data
 WORKDIR /data
 
-# Run
+# get src
+RUN wget -o server.jar https://ci.nukkitx.com/job/NukkitX/job/Nukkit/job/master/lastSuccessfulBuild/artifact/target/nukkit-1.0-SNAPSHOT.jar
+
+# run
 CMD [ "java", "-jar", "/data/server.jar" ]

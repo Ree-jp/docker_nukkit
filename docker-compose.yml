@@ -1,7 +1,7 @@
 version: '3'
 services:
   nukkit:
-    image: reejp/nukkit:0.1
+    image: reejp/nukkit:latest
     container_name: reef
     ports:
       - "19132:19132/udp"
